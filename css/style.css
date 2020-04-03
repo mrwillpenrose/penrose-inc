@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ----------------------------- NAV ------------------------*/
+.banner {
+    padding: 0;
+    margin: 0;
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navigation {
+    text-decoration: none;
+}
