@@ -3,6 +3,16 @@ body {
     margin: 0;
 }
 
+/* ----------------------------- MEDIA QUERIES ------------------------*/
+
+@media (max-width: 768px) {
+    .social {
+        padding: 0;
+    }
+}
+
+
+
 
 /* ----------------------------- NAV ------------------------*/
 
@@ -31,26 +41,29 @@ body {
     padding-right: 10px;
 }
 
-.social-icon {
+.font-awesome-icon {
     font-size: 25px;
     color: #fff;
     text-align: center;
-    -webkit-transition: ease-in-out 0.25s;
-    -moz-transition: ease-in-out 0.25s;
-    -o-transition: ease-in-out 0.25s;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -o-transition: ease-in-out 0.2s;
 }
 
-.social .social-icon:hover {
+.font-awesome-icon:hover {
 
     font-size: 40px;
     color: #FF0000;
 }
 
 
-/* ----------------------------- MEDIA QUERIES ------------------------*/
+/* ----------------------------- FOOTER ------------------------*/
 
-@media (max-width: 768px) {
-    .social {
-        padding: 0;
-    }
+footer {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
 }
+
+
+
