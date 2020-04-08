@@ -20,28 +20,39 @@ body {
     background-color: #000;
 }
 
-.navbar-custom {
+
+.navbar {
+    border-bottom: 2px solid #FF0000;
+}
+
+.navbar-brand .logo {
+    width: 200px;
+    height: auto;
+}
+
+.navbar .nabar-nav .menu-item {
     color: #fff;
 }
 
-.navbar-brand {
-    text-decoration: none;
-    color: #fff !important;
-}
 
-.navbar .navbar-nav li a {
+.navbar .navbar-nav .menu-item {
     color: #fff;
-    -webkit-transition: ease-in-out 0s;
-    -moz-transition: ease-in-out 0s;
-    -o-transition: ease-in-out 0s;
+    text-align: center;
+    -webkit-transition: ease-in-out 0.25s;
+    -moz-transition: ease-in-out 0.25;
+    -o-transition: ease-in-out 0.25s;
 }
 
-.navbar .navbar-nav li a:hover {
-    border: 1px solid red;
+.navbar .navbar-nav .menu-item:hover {
+    font-size: 20px;
+    color: #FF0000;
 }
 
-
-
+ul .social a i {
+     padding: 0;
+ }
+ 
+ 
 .social {
     text-align: center;
 }
