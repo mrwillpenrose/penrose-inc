@@ -73,7 +73,7 @@ body {
 
 footer {
     text-align: center;
-    padding: 0;
+    padding: 10px 10px 10px 10px;
     margin: 0;
     background-color: #000;
     position: static;
@@ -84,8 +84,6 @@ footer {
 
 
 footer img {
-    padding-top: 10px;
-    padding-bottom: 10px;
     width: 200px;
     height: auto;
 }
@@ -109,8 +107,18 @@ footer img {
 }
 
 
-.about-section img {
+.index-image img {
     width: 100%;
     height: auto;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #FF0000;
+}
+
+.about-heading {
+    color: #000;
+    text-align: center;
+}
+
+.about-section {
+    color: #000;
 }
