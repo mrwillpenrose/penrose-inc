@@ -3,16 +3,6 @@ body {
     margin: 0;
 }
 
-/* ----------------------------- MEDIA QUERIES ------------------------*/
-
-@media (max-width: 768px) {
-    .social {
-        padding: 0;
-    }
-}
-
-
-
 
 /* ----------------------------- NAV ------------------------*/
 
@@ -48,13 +38,11 @@ body {
     color: #FF0000;
 }
 
-ul .social a i {
-     padding: 0;
- }
- 
- 
+
+
 .social {
     text-align: center;
+    padding: 0;
 }
 
 
@@ -84,10 +72,45 @@ ul .social a i {
 /* ----------------------------- FOOTER ------------------------*/
 
 footer {
+    text-align: center;
     padding: 0;
     margin: 0;
     background-color: #000;
+    position: static;
+    left: 0;
+    bottom: 0;
+    border-top: 2px solid #FF0000;
 }
 
 
+footer img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    height: auto;
+}
 
+
+.copyright-icon {
+    color: #fff;
+    font-size: 15px;
+}
+
+
+/* ----------------------------- HOME ------------------------*/
+
+
+.jumbotron {
+    padding: 20px 20px 30px 20px;
+    margin: 0;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+
+.about-section img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
