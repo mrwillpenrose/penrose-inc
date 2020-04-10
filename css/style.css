@@ -11,7 +11,9 @@ body {
 }
 
 
+
 .navbar {
+    padding-bottom: 0px;
     border-bottom: 2px solid #FF0000;
 }
 
@@ -20,13 +22,14 @@ body {
     height: auto;
 }
 
-.navbar .nabar-nav .menu-item {
-    color: #fff;
-}
 
 
 .navbar .navbar-nav .menu-item {
+    font-family: "Teko", sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
     color: #fff;
+    text-transform: uppercase;
     text-align: center;
     -webkit-transition: ease-in-out 0.25s;
     -moz-transition: ease-in-out 0.25;
@@ -34,7 +37,7 @@ body {
 }
 
 .navbar .navbar-nav .menu-item:hover {
-    font-size: 20px;
+    font-size: 30px;
     color: #FF0000;
 }
 
@@ -89,16 +92,13 @@ footer img {
 }
 
 
-.copyright-icon {
-    color: #fff;
-    font-size: 15px;
-}
-
 
 /* ----------------------------- HOME ------------------------*/
 
 
 .jumbotron {
+    font-family: "Teko", sans-serif;
+    font-size: 40px;
     padding: 20px 20px 30px 20px;
     margin: 0;
     background-color: #fff;
@@ -110,15 +110,31 @@ footer img {
 .index-image img {
     width: 100%;
     height: auto;
-    margin-bottom: 10px;
     border: 2px solid #FF0000;
 }
 
 .about-heading {
+    font-family: "Teko", sans-serif;
+    font-size: 50px;
     color: #000;
+    text-decoration: underline;
+    margin-bottom: 15px;
     text-align: center;
 }
 
 .about-section {
+    font-family: "PT Sans", sans-serif;
     color: #000;
+}
+
+ul .index-list {
+    text-align: center;
+}
+
+/* ----------------------------- HOME MEDIA QUERIES ------------------------*/
+
+@media screen and (max-width: 992px) {
+    .about-heading {
+        margin-top: 10px;
+    }
 }
