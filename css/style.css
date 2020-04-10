@@ -95,7 +95,6 @@ footer img {
 
 /* ----------------------------- HOME ------------------------*/
 
-
 .jumbotron {
     font-family: "Teko", sans-serif;
     font-size: 40px;
@@ -113,7 +112,7 @@ footer img {
     border: 2px solid #FF0000;
 }
 
-.about-heading {
+.page-heading {
     font-family: "Teko", sans-serif;
     font-size: 50px;
     color: #000;
@@ -131,10 +130,37 @@ ul .index-list {
     text-align: center;
 }
 
+/* ----------------------------- WORK WITH ME ------------------------*/
+
+
+form {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+form .name {
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+textarea {
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    resize: both;
+}
+
+input, textarea {
+    outline: none;
+    border: 2px solid #FF0000;
+}
+
+
 /* ----------------------------- HOME MEDIA QUERIES ------------------------*/
 
 @media screen and (max-width: 992px) {
-    .about-heading {
+    .page-heading {
         margin-top: 10px;
     }
 }
